@@ -7,12 +7,20 @@
 - `deprecated/<skill-name>/` — retired, kept for reference
 - `external/<source>/<skill-name>/` — third-party skills, managed by `npx skills`
 
-## Categories
+## Categories (stable/)
 
 - `engineering/` — dev integrations, methodology, build/ship skills
 - `tooling/` — meta skills, scaffolding, system utilities
 - `personal/` — personal productivity, non-engineering
 - `workflows/` — session lifecycle, planning, task flow
+
+## Groupings (in-progress/)
+
+- `llm-wiki/` — brain-scoped skills for wiki/knowledge-base management
+
+## README Rules
+
+The README only catalogs skills in `stable/`. Never add skills from `in-progress/`, `deprecated/`, or `external/` to the README. When a skill is promoted to stable, add it to the appropriate catalog table. When demoted or deprecated, remove it.
 
 ## Skill Format
 
