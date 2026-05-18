@@ -2,12 +2,12 @@
 
 ## Structure
 
-- `stable/<category>/<skill-name>/` — production-ready, actively used
+- `skills/<category>/<skill-name>/` — production-ready, actively used (scanned by `npx skills`)
 - `in-progress/<skill-name>/` — under development, not yet reliable
 - `deprecated/<skill-name>/` — retired, kept for reference
 - `external/<source>/<skill-name>/` — third-party skills, managed by `npx skills`
 
-## Categories (stable/)
+## Categories (skills/)
 
 - `engineering/` — dev integrations, methodology, build/ship skills
 - `tooling/` — meta skills, scaffolding, system utilities
@@ -20,7 +20,7 @@
 
 ## README Rules
 
-The README only catalogs skills in `stable/`. Never add skills from `in-progress/`, `deprecated/`, or `external/` to the README. When a skill is promoted to stable, add it to the appropriate catalog table. When demoted or deprecated, remove it.
+The README only catalogs skills in `skills/`. Never add skills from `in-progress/`, `deprecated/`, or `external/` to the README. When a skill is promoted to skills/, add it to the appropriate catalog table. When demoted or deprecated, remove it.
 
 ## Skill Format
 

@@ -40,7 +40,7 @@ Session lifecycle and task flow.
 ## Structure
 
 ```
-stable/          Production-ready, organized by category
+skills/          Production-ready, organized by category (scanned by npx skills)
 in-progress/     Under development — not yet reliable
 deprecated/      Retired, kept for reference
 external/        Third-party skills (managed by npx skills)
@@ -50,4 +50,4 @@ external/        Third-party skills (managed by npx skills)
 
 1. Create a folder in `in-progress/<skill-name>/`
 2. Add a `SKILL.md` with proper frontmatter (see `CLAUDE.md`)
-3. Once stable, move to `stable/<category>/`
+3. Once stable, move to `skills/<category>/`
