@@ -1,6 +1,6 @@
 ---
 name: park
-description: [Med] Saves the current session to ~/.claude/parking-lot/ as a structured handoff file. Use when user explicitly calls /park.
+description: "[Med] Saves the current session to ~/.claude/parking-lot/ as a structured handoff file. Use when user explicitly calls /park."
 argument-hint: "Optional slug (e.g. auth-refactor)"
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: unpark
-description: [Med] Loads a parking-lot file into context so the current session can resume parked work. Use when user explicitly calls /unpark.
+description: "[Med] Loads a parking-lot file into context so the current session can resume parked work. Use when user explicitly calls /unpark."
 argument-hint: "Optional partial slug to fuzzy-match (e.g. auth)"
 ---
 
